@@ -1,6 +1,6 @@
 # syllable-tools
 
-Syllable counting for song lyrics, in two pieces:
+Syllable counting for song lyrics, in three pieces:
 
 - **`syllable_counter.py`**: a Python port of the syllable counter from
   *READABILITY TESTS* (Apple II, 6502, 1979), ported branch for branch, plus an
