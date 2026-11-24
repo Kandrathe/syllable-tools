@@ -29,6 +29,9 @@ Example output:
 ```
 
 ## Notepad++ (PythonScript)
+> **Note:** Use PythonScript **3.x** (which bundles Python 3). The older 2.x build
+> bundles Python 2.7 and fails with a SyntaxError on the type hints. Check with
+> `import sys; print(sys.version)` in Plugins > Python Script > Show Console.
 
 1. In Notepad++: Plugins > Plugins Admin > install **Python Script**.
 2. Clone this repo, e.g. to `D:\dev\syllable-tools`.
