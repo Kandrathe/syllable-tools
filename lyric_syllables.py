@@ -27,7 +27,8 @@ def words_in(line: str, keep_parens: bool) -> list[str]:
     if not keep_parens:
         line = re.sub(r"\([^)]*\)", " ", line)
     line = line.replace("-", " ").replace("\u2019", "'")
-    return [w for w in WORD_RE.findall(line) if w.strip("'")]
+    return [w for w in WORD_RE.findall(line) if
+w.strip("'")]
 
 
 def count_word(word: str, original: bool) -> int:
